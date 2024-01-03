@@ -2,6 +2,6 @@
 
 passwd root
 su
-wget -qO- -O https://raw.githubusercontent.com/DotAja/Dot-Project/main/sshd_config
+wget -qO- -O /etc/ssh/sshd_config https://raw.githubusercontent.com/DotAja/Dot-Project/main/sshd_config
 systemctl restart sshd
 clear
