@@ -1,4 +1,4 @@
-# Dot-Project
+y# Dot-Project
 jangan lupa berdoa ya gaes ya, minimal kasih star lah wkwkk
 
 akses vps root script
