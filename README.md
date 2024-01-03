@@ -1,6 +1,8 @@
-Dot-Project
+DOT PROJECT
 
-jangan lupa berdoa ya gaes ya, minimal kasih star lah wkwkk
+by hendi kusnandi
+
+jangan menyerah
 
 
 
