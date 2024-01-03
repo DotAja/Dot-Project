@@ -18,11 +18,11 @@ mkdir -p /etc/xray
 mkdir -p /etc/v2ray
 echo "$SUB_DOMAIN" >> /etc/v2ray/domain
 #
-sub=$(</dev/urandom tr -dc a-z 0-9 | head -c5)
-subsl=$(</dev/urandom tr -dc a-z 0-9 | head -c5)
+sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
+subsl=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 DOMAIN=dotaja.my.id
-SUB_DOMAIN=project ${sub}.dotaja.my.id
-NS_DOMAIN=mek ${sub}.dotaja.my.id
+SUB_DOMAIN=project${sub}.dotaja.my.id
+NS_DOMAIN=mek${sub}.dotaja.my.id
 CF_ID=hendykusnandy@gmail.com
 CF_KEY=8ffca2a35ab4c6577c875232dda429b605cad
 set -euo pipefail
